@@ -1,9 +1,47 @@
-h1 {
-  margin-top: 30px;
-  color: red;
-  font-family: Comfortaa;
+:root {
+  --font-cool: Comfortaa;
+  --body-color: rgb(221, 252, 231);
 }
 
-.happy-face {
-  margin-top: 25px;
+body {
+  background-color: var(--body-color);
+}
+h1 {
+  color: black;
+  font-family: var(--font-cool);
+  font-size: 60px;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.introduction-title,
+.hello {
+  padding: 5px;
+  margin: 0;
+  font-size: 20px;
+}
+
+.hello {
+  font-weight: bolder;
+  font-size: 28px;
+}
+
+#title-container {
+  padding: 75px;
+  text-align: center;
+  font-family: var(--font-cool);
+  background-color: aquamarine;
+}
+
+.contactMe {
+  margin: 10px;
+  border: 2px solid black;
+  border-radius: 8px;
+  font-size: 13px;
+}
+
+.contactMe:hover {
+  cursor: pointer;
+  background-color: black;
+  color: aquamarine;
 }
