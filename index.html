@@ -41,19 +41,21 @@
       </p>
       <br />
       <button type="button" class="btn btn-outline contactMe">
-        Contact me
+        <a class="email" href="#email">Contact me</a>
       </button>
     </div>
     <div class="container" id="homepage-sections">
       <div class="row">
-        <div class="col-6 mt-5 img-about-me">
+        <div class="col d-none d-lg-block d-md-block mt-5 img-about-me">
           <img
             class="imgProfile"
             src="images/Profile.jpeg"
             alt="profile-picture"
           />
         </div>
-        <div class="col-6 mt-5 introducing-myself">
+        <div
+          class="col-lg-6 col-md-4 col-sm-1 col-xs-1 mt-4 introducing-myself"
+        >
           <h2 class="aboutTitle mt-5">About me</h2>
           <p class="text-myself">
             I am an italian Art Historian and Art is my first passion, even
@@ -68,14 +70,16 @@
             <a class="aboutme-link" href="#">Learn more</a>
           </button>
         </div>
-        <div class="col-6 mt-5 img-my-projects">
+        <div class="col d-none d-lg-block d-md-block mt-5 img-my-projects">
           <img
             class="imgProjects"
             src="images/art_project.png"
             alt="artproject-picture"
           />
         </div>
-        <div class="col-6 mt-5 introducing-projects">
+        <div
+          class="col-lg-6 col-md-4 col-sm-1 col-xs-1mt-5 introducing-projects"
+        >
           <h2 class="projectsTitle mt-5">My projects</h2>
           <p class="text-projects">
             My first projects using HTML, CSS, Javascript, Bootstrap, APIs and
@@ -87,6 +91,8 @@
         </div>
       </div>
     </div>
-    <h3 class="contacts">📬 Contact me</h3>
+    <a class="contacts" id="email" href="mailto:[francinibianca@gmail.com]"
+      >📬 Contact me</a
+    >
   </body>
 </html>
