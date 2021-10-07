@@ -84,7 +84,13 @@ h2 {
   border-radius: 180px;
   margin: 0 auto;
 }
+.imgWork {
+  width: 200px;
+}
 
+.imgEducation {
+  width: 300px;
+}
 .aboutTitle,
 .projectsTitle {
   text-align: center;
@@ -165,12 +171,14 @@ li {
 
 @media (min-width: 1000px) {
   .imgProfile,
-  .imgAbout {
+  .imgAbout,
+  .imgWork {
     display: block;
     margin: 0 auto;
     border-radius: 280px;
   }
-  .imgProjects {
+  .imgProjects,
+  .imgEducation {
     display: block;
     margin: 0 auto;
     border-radius: none;
