@@ -77,7 +77,8 @@ h2 {
 .imgProfile,
 .imgAbout,
 .imgWork,
-.imgEducation {
+.imgEducation,
+.imgProjectsPage {
   display: block;
   border: var(--primary-color);
   padding: 10px;
@@ -89,6 +90,9 @@ h2 {
 }
 .imgEducation {
   width: 250px;
+}
+.imgProjectsPage {
+  width: 300px;
 }
 
 .aboutTitle,
@@ -172,6 +176,26 @@ li {
   font-weight: bold;
 }
 
+.projects-paragraphs {
+  padding: 30px;
+  margin-top: 40px;
+}
+
+.myProjects {
+  padding: 30px;
+  text-align: center;
+}
+.croissant-img,
+.weather-img,
+.art-img,
+.portfolio-img {
+  display: flex;
+  justify-content: center;
+  border: 3px solid aquamarine;
+  margin: 10px;
+  padding: 5px;
+}
+
 @media (min-width: 900px) {
   .imgProfile,
   .imgAbout,
@@ -202,13 +226,15 @@ li {
 }
 
 @media (max-width: 380px) {
-  h1 {
+  .h1Name {
     font-size: 50px;
   }
+
   .hello,
   .aboutTitle,
   .workTitle,
-  .educationTitle {
+  .educationTitle,
+  .projectsPageTitle {
     font-size: 22px;
   }
   .workTitle,
