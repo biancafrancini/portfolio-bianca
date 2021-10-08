@@ -40,7 +40,7 @@ h2 {
 }
 
 #title-container {
-  padding: 70px;
+  padding: 60px;
   text-align: center;
   font-family: var(--font-cool);
   background-color: aquamarine;
@@ -87,12 +87,14 @@ h2 {
 .imgWork {
   width: 200px;
 }
-
 .imgEducation {
-  width: 300px;
+  width: 250px;
 }
+
 .aboutTitle,
-.projectsTitle {
+.projectsTitle,
+.workTitle,
+.educationTitle {
   text-align: center;
   font-family: var(--font-cool);
   font-weight: bold;
@@ -114,9 +116,10 @@ h2 {
 }
 
 .workTitle,
-.EducationTitle {
+.educationTitle {
   text-align: left;
 }
+
 ul {
   display: block;
   text-align: left;
@@ -169,34 +172,56 @@ li {
   font-weight: bold;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 900px) {
   .imgProfile,
   .imgAbout,
-  .imgWork {
+  .imgWork,
+  .imgEducation {
     display: block;
     margin: 0 auto;
     border-radius: 280px;
   }
-  .imgProjects,
-  .imgEducation {
+  .imgProjects {
     display: block;
     margin: 0 auto;
     border-radius: none;
   }
 }
 
-@media (max-width: 320px) {
+@media (min-width: 700px) {
+  .aboutTitle,
+  .workTitle,
+  .educationTitle {
+    font-size: 26px;
+  }
+  .text-myself,
+  .text-experience,
+  .text-education {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 380px) {
   h1 {
     font-size: 50px;
   }
-  .hello {
+  .hello,
+  .aboutTitle,
+  .workTitle,
+  .educationTitle {
     font-size: 22px;
+  }
+  .workTitle,
+  .educationTitle {
+    text-align: center;
   }
   .introduction-title {
     font-size: 14px;
   }
   .text-myself,
-  .text-projects {
+  .text-projects,
+  .text-experience,
+  .text-education {
     font-size: 12px;
   }
 }
