@@ -252,6 +252,13 @@ footer .social-icons a:hover {
   color: rgb(20, 136, 97);
 }
 
+.coderName {
+  margin-top: 30px;
+  padding: 40px;
+  font-family: var(--font-cool);
+  font-size: 16px;
+}
+
 @media (min-width: 900px) {
   .imgProfile,
   .imgAbout,
