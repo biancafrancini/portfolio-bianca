@@ -205,11 +205,9 @@ li {
 }
 
 #contacts-ul {
-  list-style: none;
-}
-.contacts-li {
-  display: inline-block;
-  margin: 10px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
 }
 @media (min-width: 900px) {
   .imgProfile,
@@ -239,17 +237,12 @@ li {
   .text-education {
     font-size: 15px;
   }
-  #contacts-ul {
-    display: block;
-    text-align: center;
-  }
 }
 
 @media (max-width: 380px) {
   .h1Name,
   .contact-title {
     font-size: 50px;
-    text-align: center;
   }
   .hello,
   .aboutTitle,
