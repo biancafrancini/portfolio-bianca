@@ -161,8 +161,13 @@ li {
 }
 
 .aboutme-link,
-.myProjects-link {
+.myProjects-link,
+.git-a {
   text-decoration: none;
+  color: var(--primary-color);
+}
+.git-a:hover {
+  text-decoration: underline;
   color: var(--primary-color);
 }
 
