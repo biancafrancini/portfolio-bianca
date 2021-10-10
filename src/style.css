@@ -114,6 +114,7 @@ h2 {
   font-family: var(--font-cool);
   font-weight: bold;
   padding: 15px;
+  font-size: 35px;
 }
 .introducing-myself,
 .introducing-projects,
@@ -162,11 +163,13 @@ li {
 
 .aboutme-link,
 .myProjects-link,
-.git-a {
+.git-a,
+.email-homepage-link {
   text-decoration: none;
   color: var(--primary-color);
 }
-.git-a:hover {
+.git-a:hover,
+.email-homepage-link:hover {
   text-decoration: underline;
   color: var(--primary-color);
 }
@@ -224,6 +227,31 @@ li {
   justify-content: center;
   justify-content: space-evenly;
 }
+
+footer .end-email-section {
+  margin-top: 100px;
+  padding: 30px;
+  font-family: var(--font-cool);
+  font-weight: bolder;
+  font-size: 28px;
+}
+
+footer .social-icons {
+  font-family: var(--font-cool);
+  font-weight: bolder;
+  font-size: 28px;
+}
+
+footer .social-icons a {
+  padding: 20px;
+  background-color: none;
+  color: var(--primary-color);
+}
+
+footer .social-icons a:hover {
+  color: rgb(20, 136, 97);
+}
+
 @media (min-width: 900px) {
   .imgProfile,
   .imgAbout,
@@ -244,7 +272,9 @@ li {
   .aboutTitle,
   .workTitle,
   .educationTitle,
-  .contacts {
+  .contacts,
+  .projectsTitle,
+  .myProjects {
     font-size: 26px;
   }
   .text-myself,
