@@ -168,8 +168,7 @@ li {
   text-decoration: none;
   color: var(--primary-color);
 }
-.git-a:hover,
-.email-homepage-link:hover {
+.git-a:hover{
   text-decoration: underline;
   color: var(--primary-color);
 }
@@ -211,10 +210,8 @@ li {
   padding: 30px;
   text-align: center;
 }
-.croissant-img,
-.weather-img,
-.art-img,
-.portfolio-img {
+
+.img-project-page {
   display: flex;
   justify-content: center;
   border: 3px solid aquamarine;
